@@ -1,11 +1,11 @@
-﻿using Reporting.Core.Enums;
+﻿using System.Collections;
+using Reporting.Core.Enums;
 
 namespace Reporting.Core.Abstractions
 {
     public interface IReportParameter
     {
-        string Id { get; }
-        ReportParameterTypes ParameterType { get; }
-        string DisplayName { get; }
+        ReportParameterType ParameterType { get; }
+        IEnumerable ParameterValues { get; }
     }
 }

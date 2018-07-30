@@ -1,6 +1,6 @@
 ﻿namespace Reporting.Core.Enums
 {
-    public enum ReportParameterTypes
+    public enum ReportParameterType
     {
         Simple,
         Multivalue,

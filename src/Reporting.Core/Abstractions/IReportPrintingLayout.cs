@@ -5,7 +5,7 @@ namespace Reporting.Core.Abstractions
     public interface IReportPrintingLayout
     {
         string ComponentLayout { get; }
-        List<IReportParameter> ReportParameters { get; }
+        IEnumerable<IReportParameter> ReportParameters { get; }
 
     }
 }
